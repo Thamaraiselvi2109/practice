@@ -1,0 +1,36 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: cursive;
+    background: url(login_img.jpeg);
+    background-size: cover;
+    background-position: center;
+    color: rgba(255, 255, 255, 0.649);
+    text-align: center;
+    font-size: x-large;
+}
+.loginbox{
+    width: 320px;
+    height: 420px;
+    background-color: rgba(240, 248, 255, 0.567);
+    color: rgb(65, 68, 70);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    text-align: center;
+
+}
+.loginbox p{
+    margin: 0%;
+    padding: 0%;
+    font-weight: bolder;
+    font-size: large;
+    
+}
+.loginbox input{
+    width: 80%;
+    margin-bottom: 20px;
+    height: 10%;
+}
