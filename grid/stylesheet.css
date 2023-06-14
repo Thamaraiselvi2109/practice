@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+}
+.flex-container{
+    background-color:rgb(244, 244, 244);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.flex-container>div{
+    background-color: rgb(91, 254, 3);
+    border: 2px solid rgb(205, 96, 96);
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+
+}
+.box1{
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.box5{
+    grid-column: span 3;
+    grid-row: span 5;
+}
+.box9{
+    grid-row: span 2;
+}
