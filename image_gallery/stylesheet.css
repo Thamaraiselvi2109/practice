@@ -1,0 +1,41 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1{
+    text-align: center;
+    color: blueviolet;
+    font-size: 50px;
+}
+ul{
+    list-style:none;
+}
+li{
+float: left;
+    justify-content: space-between;
+    border:2px solid black;
+    margin:40px;
+    width: 210px;
+    height: 250px;
+    border-radius: 3px;
+}
+.rating{
+float: left;
+padding-left: 3px;
+}
+.yoga{
+    float: right;
+    padding-right: 3px;
+}
+p{
+    text-align: justify;
+    padding-top: 10px;
+    padding-right: 3px;
+    padding-left: 3px;
+    color: brown;
+    font-style: italic;
+}
+li:hover{
+    box-shadow: 5px 5px black;
+    cursor:pointer
